@@ -32,11 +32,12 @@ public class Frogger extends PApplet {
 
     @Override
     public void draw() {
-    	background(0, 255, 255);
+        background(0, 255, 255);
 
     	restrictPos();
     	
     	fill(0, 255,100);
+    	
     	ellipse(x, y, 20, 20);
     	
     	
